@@ -8,5 +8,5 @@ services:
     ports:
       - 80:80
     volumes:
-      - /home/ignat/projects/wcs-host-site/frontend/:/usr/share/nginx/html
+      - /home/ignat/projects/wcs-host-web/frontend/:/usr/share/nginx/html
 
