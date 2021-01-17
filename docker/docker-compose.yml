@@ -1,0 +1,12 @@
+
+version: '3.0'
+
+services:
+
+  nginx:
+    image: nginx
+    ports:
+      - 80:80
+    volumes:
+      - /home/ignat/projects/wcs-host-site/frontend/:/usr/share/nginx/html
+
