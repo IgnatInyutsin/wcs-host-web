@@ -9,19 +9,10 @@ Docker-окружение для проекта
 Если не входит - добавить
 
 ```
-sudo usermod -a -G docker `whoami`
+sudo usermod -aG docker
 ```
 
-2. скопировать .env.sample в .env
-
-```
-cd путь_к_папке/tracker-web/instances/tracker_web_workcopy
-cp .env.sample .env
-```
-
-3. Отредактировать, если нужно, .env
-
-4. Запустить сборку
+2. Собрать сборку
 
 ```
 chmod +x bulid
@@ -35,7 +26,7 @@ chmod +x start
 ```
 # Запуск
 ```
-- ./stop
+- ./start
 ```
 
 #Сделать запускаемым файлом, писать если команда не активируется
